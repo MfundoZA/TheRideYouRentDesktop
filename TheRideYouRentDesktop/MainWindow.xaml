@@ -1,0 +1,15 @@
+﻿<Window x:Class="TheRideYouRentDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheRideYouRentDesktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="650" Background="#FFCBCBCB">
+    <Grid>
+        <TextBox x:Name="txtUsername" Height="Auto" Width="200" Margin="0,64,0,0" VerticalAlignment="Top" Text="Username" Background="White"></TextBox>
+        <TextBox x:Name="txtPassword" Height="Auto" Width="200" VerticalAlignment="Top" Margin="0,128,0,0" Text="Password" Background="White"/>
+        <Button x:Name="btnLogin" Height="32" Width="150" Margin="0, 192, 0, 0" Content="Login"></Button>
+        <Label x:Name="lblRegister" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="14" FontStyle="Italic" FontWeight="Normal" Foreground="#FF003AFF" Cursor="Hand">Register instead</Label>
+    </Grid>
+</Window>
